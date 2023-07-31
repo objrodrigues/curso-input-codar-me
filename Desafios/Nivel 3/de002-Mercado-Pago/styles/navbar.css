@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 32px;
+    color: #666666;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbar-sections {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-button {
+    padding: 12px 40px;
+    border-radius: 4px;
+}
+
+.navbar-button-login {
+    color: #009EE3;
+    background-color: #479AD126;
+}
+
+.navbar-button-register {
+    color: white;
+    background-color: #009EE3;
+}
+
+.navbar-button-help {
+    border-left: solid 1px #666666;
+    padding: 16px 20px;
+}
+
+.navbar-button-register:hover {
+    background-color: #00A868;
+}
+
+.navbar-button-login:hover {
+    background-color:  #E8E8E8;
+}

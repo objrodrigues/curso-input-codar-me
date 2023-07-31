@@ -1,0 +1,25 @@
+.tasks-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+}
+
+.tasks-list-title {
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: solid 1px;
+}
+
+.tasks-container {
+    width: 100%;
+}
+
+@media screen and (max-width: 1220px){
+
+    .tasks-list-title {
+        font-size: 1rem;
+    }
+
+}

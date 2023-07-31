@@ -1,0 +1,40 @@
+.header {
+    background-image: url(../assets/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 640px;
+    padding: 50px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 500px;
+}
+
+.header-title {
+    font-size: 52px;
+}
+
+.header-paragraph {
+    font-size: 20px;
+}
+
+.header-button {
+    color: #20252A;
+    background-color:#42EC9A;
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.header-button:hover {
+    background-color: #00A868;
+}

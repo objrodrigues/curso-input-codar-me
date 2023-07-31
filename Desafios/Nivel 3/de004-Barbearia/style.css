@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Epilogue';
+}
+
+.container {
+    max-width: 3000px;
+    margin: auto;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    margin: auto;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.logo {
+    font-size: 18px;
+}
+
+.logo-span{
+    font-weight: bolder;
+}
+
+.navbar-button {
+    font-size: 14px;
+    border: solid 2px white;
+    padding: 12px 24px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.header-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #BA181B;
+    padding: 20px;
+    font-weight: 700;
+}
+
+.header-img {
+    width: 100%;
+}
+
+.alert {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 50px;
+}
+
+.alert-bg {
+    background-color: #F5F3F4;
+}
+
+.alert-pre-title {
+    font-size: 12px;
+    color: #E5383B;
+    font-weight: 700;
+}
+
+.alert-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.alert-location-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.map-location {
+    height: 400px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.service-text-container {
+    background-color: #F5F3F4;
+    padding: 24px 40px;
+    border: solid 2px  #e6e6e6;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.service-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.service-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+    margin-bottom: 80px;
+}
+
+.footer-title {
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.footer-span-title {
+    font-weight: 700;
+}
+
+.footer-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer-social-icons-container {
+    display: flex;
+    gap: 16px;
+}

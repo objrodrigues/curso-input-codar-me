@@ -1,0 +1,52 @@
+.options {
+    padding: 2.5rem 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+}
+
+.add-task, .search-task, .filter-task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.7rem;
+    border: solid 1px lightgray;
+    border-radius: 16px;
+    font-size: 1rem;
+    min-width: 160px;
+}
+
+.filter-task option {
+    font-size: 1rem;
+}
+
+
+
+@media screen and (max-width: 1220px){
+    .add-task {
+        grid-area: add-task;
+    }
+    .search-task {
+        grid-area: search-task;
+    }
+    .filter-task {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+	.options {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "add-task add-task add-task" "search-task search-task search-task";
+    }
+    
+    .edit-task-input {
+        width: 70%;
+    }
+}

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Space Grotesk';
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #D6D4E2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    align-self: self-start;
+    padding: 40px 0px;
+}
+
+.sub-text-header {
+    color: #787490;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.cards-container {
+    display: flex;
+    gap: 25px;
+    font-weight: 400;
+}
+
+.card {
+    background-color: white;
+    width: 230px;
+    height: 300px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.image {
+    height: 45%;
+    width: 230px;
+    border-radius: 32px 32px 0 0;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #18161F;
+}
+
+.hour{
+    color: #787490;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.diego-profile-img {
+    background-image: url("./assets/diego.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.brady-profile-img {
+    background-image: url("./assets/brady.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.taya-profile-img {
+    background-image: url("./assets/taya.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    height: 55%;
+    width: 195px;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 12px;
+    justify-content: space-around;
+}
+
+.profile {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.name {
+    font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coments, .views {
+    display: flex;
+    font-size: 12px;
+    gap: 5px;
+    align-items: center;
+    padding: 0 4px;
+    color: #787490;
+}

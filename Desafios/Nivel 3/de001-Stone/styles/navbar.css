@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 32px;
+    color: #20252A;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navbar-sections {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navbar-button {
+    padding: 16px 20px;
+    border-radius: 50px;
+}
+
+.navbar-button-login {
+    border: solid 2px #E8E8E8;
+}
+
+.navbar-button-stone {
+    background-color: #42EC9A;
+}
+
+.navbar-button-stone:hover {
+    background-color: #00A868;
+}
+
+.navbar-button-login:hover {
+    background-color:  #E8E8E8;
+}

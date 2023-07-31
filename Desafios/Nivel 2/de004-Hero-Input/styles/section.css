@@ -1,0 +1,55 @@
+.section {
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.pre-title {
+    display: flex;
+    gap: 10px;
+    font-weight: 100;
+    margin: 20px 0px;
+}
+
+.title {
+    font-size: 48px;
+    margin: 20px 0px;
+}
+
+.description {
+    margin: 20px 0px;
+    font-weight: 100;
+}
+
+.start-button {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 30px 0px;
+    padding: 25px;
+    border-radius: 35px;
+    font-weight: 700;
+    color: #18161F;
+    background-color: #00D9C0;
+}
+
+.effect-blur {
+    position: relative;
+    background: linear-gradient(135deg, #00D9C0 0%, #00CBCB 35.42%, #00BCD8 69.79%, #00A8E8 100%);
+    filter: blur(100px);
+    width: 100px;
+    height: 800px;
+    rotate: -30deg;
+}
+.bruno-img {
+    display: inline-block;
+    margin: 50px;
+}

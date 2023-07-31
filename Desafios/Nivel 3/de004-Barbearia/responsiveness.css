@@ -1,0 +1,136 @@
+@media screen and (min-width: 900px) {
+    .navbar {
+        height: 100px;
+    }
+    
+    .logo {
+        font-size: 36px;
+    }
+    
+    .navbar-button {
+        font-size: 28px;
+        padding: 16px 32px;
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+
+    .header-text-container {
+        justify-content: center;
+    }
+
+    .header-title {
+        font-size: 100px;
+    }
+
+    .header-img {
+        width: 50%;
+        margin: 50px;
+        margin-bottom: 0;
+    }
+
+    .header-paragraph {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 52px;
+    }
+
+    .header-button {
+        font-size: 24px;
+        width: 300px;
+        padding: 40px 60px;
+    }
+    
+    .alert {
+        padding: 100px  20px;
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+    }
+    
+    .alert-pre-title {
+        font-size: 24px;
+        color: #E5383B;
+        font-weight: 700;
+    }
+    
+    .alert-title {
+        font-size: 72px;
+        font-weight: 700;
+    }
+    
+    .alert-location-text {
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .alert-location-icon {
+        width: 40px;
+    }
+    
+    .map-location {
+        height: 600px;
+    }
+    
+    .services-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin-bottom: 100px;
+    }
+    
+    .service-text-container {
+        padding: 60px 40px;
+        height: 140px;
+    }
+    
+    .service-title {
+        font-size: 40px;
+    }
+    
+    .service-description {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 80px 20px;
+        margin-bottom: 0;
+    }
+    
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-title {
+        font-size: 60px;
+    }
+    
+    .footer-paragraph {
+        font-size: 20px;
+    }
+    
+    .footer-social-icons-container {
+        padding: 0px 80px;
+    }
+
+    .footer-social-icon {
+        width: 60px;
+    }
+}

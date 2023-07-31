@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    height: 5%;
+    padding: 30px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    color: #FFFFFF;
+}
+
+.button {
+    display: flex;
+    padding: 20px 30px;
+    border-radius: 25px;
+    font-weight: 300;
+}
+
+.student {
+    align-items: center;
+    gap: 10px;
+}
+
+.enrollment {
+    border: solid 1px #FFFFFF;
+}

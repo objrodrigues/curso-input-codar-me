@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Space Grotesk';
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #D6D4E2;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment {
+    background-color: white;
+    width: 360px;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-header, .footer {
+    display: flex;
+    gap: 24px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #18161F;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #18161F;
+}
+
+.hour{
+    color: #787490;
+}
+
+.profile-img, .eart-box{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.profile-comment, .footer-comment {
+    width: 280px;
+}
+
+.marcelo-melo {
+    background-image: url("./assets/marcelo.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aline-cardoso-comment {
+    border-radius: 16px 16px 0 0;
+}
+
+.aline-cardoso {
+    background-image: url("./assets/aline.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aline-eart {
+    width: 20px;
+    position: relative;
+    left: 35px;
+    bottom: -25px;
+}
+
+.sergio-campos {
+    background-image: url("./assets/sergio.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    background-color: #F5F4F6;
+    width: 360px;
+    padding: 10px 24px;
+    border-radius: 0 0 16px 16px;
+}
+
+.eart-box {
+    display: flex;
+    align-items: center;
+}
+
+.earts {
+    position: relative;
+    width: 10px;
+}
+
+.eart {
+    width: 20px;
+}
+
+.eart-1 {
+    z-index: 4;
+}
+
+.eart-2 {
+    z-index: 3;
+}
+
+.eart-3 {
+    z-index: 2;
+}
+
+.eart-4 {
+    z-index: 1;
+}
+
+.eart-2 circle {
+    fill: #00A8E8;
+}
+
+.eart-3 circle {
+ fill: #F5CB5C;
+}
+
+.eart-4 circle {
+    fill: #F36952;
+}
